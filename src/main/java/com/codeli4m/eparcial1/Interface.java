@@ -42,9 +42,6 @@ public class Interface extends javax.swing.JFrame {
         String[] columnNames = {
                 "N", "Apellidos y nombres", "Nota 1", "Credito 1", "Nota 2", "Credito 2", "Nota 3", "Credito 3", "Prom. simple", "Prom. ponderado"};
         Object[][] data = {
-            { "1", "Morely Hinostroza Carlos", "16", "3", "18", "4", "19", "4", "17.5", "18" },
-            { "2", "Cristina Torres Maldonado", "18", "3", "14", "4", "8", "4", "11.5", "12" },
-            { "3", "Alberto Ramon Fernandez", "15", "3", "16", "4", "20", "4", "17.5", "17" }
         };        
         // null or data to instantiate Model
         studentsModel = new DefaultTableModel(null,columnNames);
@@ -487,6 +484,14 @@ public class Interface extends javax.swing.JFrame {
         jTextFieldCredit1.setText("");
         jTextFieldCredit2.setText("");
         jTextFieldCredit3.setText("");
+        jLabelBestStudentName.setText("");
+        jLabelBestStudentScore.setText("");
+//        Object[][] empdata = {
+//            { "", "", , "", "", "", "", "", "", "" }
+//        }; 
+        initStudentsTableModel();
+//        this.jTableStudents.setModel(new DefaultTableModel());
+    
     }//GEN-LAST:event_jButtonClearActionPerformed
 
     /**
