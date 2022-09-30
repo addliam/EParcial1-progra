@@ -14,6 +14,46 @@ public class BankCredit {
     String codeudor;
     double tasaInteres;
     double interesMora;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getDeudor() {
+        return deudor;
+    }
+
+    public void setDeudor(String deudor) {
+        this.deudor = deudor;
+    }
+
+    public String getCodeudor() {
+        return codeudor;
+    }
+
+    public void setCodeudor(String codeudor) {
+        this.codeudor = codeudor;
+    }
+
+    public double getTasaInteres() {
+        return tasaInteres;
+    }
+
+    public void setTasaInteres(double tasaInteres) {
+        this.tasaInteres = tasaInteres;
+    }
+
+    public double getInteresMora() {
+        return interesMora;
+    }
+
+    public void setInteresMora(double interesMora) {
+        this.interesMora = interesMora;
+    }
     
     public void addBankCredit(){}
     
